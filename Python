@@ -1,0 +1,8 @@
+# 6) Calcule o tempo de uma viagem de carro. Pergunte a distância a percorrer e a velocidade média esperada para a viagem.
+
+Distancia = float(input('Qual a distância a ser percorrida em km? '));
+VeloMed = int(input('Qual a velocidade média esperada em km? '));
+
+Tempo = Distancia/VeloMed;
+
+print('Tempo estimado: ', Tempo,'h');
